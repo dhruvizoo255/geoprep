@@ -2,7 +2,7 @@
 
 GeoPrep is a modular geospatial preprocessing library that turns raw Sentinel-1 (SAR) and Sentinel-2 (optical) imagery into AI-ready tensors for **Vision Transformers**, **Temporal Transformers**, and **Graph Neural Networks**.
 
-GeoPrep does **not** train or run models. Its job stops the moment a clean, validated, model-ready dataset exists on disk — what happens after that (training, inference, serving) is deliberately out of scope, so the library stays a single-responsibility preprocessing tool that can sit in front of any modeling stack.
+GeoPrep does **not** train or run models. Its job stops the moment a clean, validated, model-ready dataset exists on disk, what happens after that (training, inference, serving) is deliberately out of scope, so the library stays a single-responsibility preprocessing tool that can sit in front of any modeling stack.
 
 ## Why GeoPrep
 
